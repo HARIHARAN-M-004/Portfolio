@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hariharan | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="sidebar">
+    <img src="images/batman.jpg" alt="Tony Stark" class="profile-pic">
+    <h1>HARIHARAN M</h1>
+    <p>Electronics | Communication | Web Development | Python</p>
+    <div class="side-links">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a Electronics and Communication Engineer with a passion for web development and embedded IoT systems. I design custom circuits, PCBs and develop web frontends using HTML, CSS, and JavaScript.</p>
+      <div class="cards">
+
+        <div class="card" onclick="location.href='projects/tinkercad.html'">
+          <img src="images/tinkercad.jpg" alt="TinkerCAD" />
+          <h3>TinkerCAD Projects</h3>
+        </div>
+
+        <div class="card" onclick="location.href='projects/webdev.html'">
+          <img src="images/webdev.jpg" alt="Web Development" />
+          <h3>Web development Projects</h3>
+        </div>
+
+        <div class="card" onclick="location.href='projects/iot.html'">
+          <img src="images/iot.jpg" alt="IoT Systems" />
+          <h3>Embedded & IoT Projects</h3>
+        </div>
+
+        <div class="card" onclick="location.href='projects/python.html'">
+          <img src="images/python.jpg" alt="Python" />
+          <h3>Python Projects</h3>
+        </div>
+
+      </div>
+      
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p>BE-Electronics and Communication engineering
+        Mount Zion College of Engineering and Technology.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python</li>
+        <li>PCB Design</li>
+        <li>Embedded Systems</li>
+        <li>IoT & TinkerCAD</li>
+        <li>Circuit Analysis</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>Boost Converter PCB (Custom Design)</li>
+        <li>IoT Sensor Monitoring System</li>
+        <li>Bluetooth Contolled Car</li>
+        <li>e Commerce website Front page</li>
+        <li>Mini Portfolio Website (this one)</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: hariharan2004official@gmail.com</p>
+      <p>LinkedIn: linkedin.com/in/HARIHARAN M</p>
+      <p>Phone: +91 89736 20064</p>
+
+      <form class="message-form">
+        <h3>Send a Message</h3>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
